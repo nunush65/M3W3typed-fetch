@@ -1,0 +1,23 @@
+{
+  "name": "typed-fetch",
+  "version": "1.0.0",
+  "description": "A small TypeScript HTTP request helper with typed responses and safe error handling.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node src/test.js"
+  },
+  "keywords": [
+    "typescript",
+    "fetch",
+    "http",
+    "api"
+  ],
+  "author": "Nunush",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
